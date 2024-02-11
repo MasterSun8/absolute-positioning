@@ -17,7 +17,7 @@ window.onload = function () {
             first = !first
             document.body.appendChild(follower)
         }
-        moveFollower()
+        window.requestAnimationFrame(moveFollower)
     })
 }
 
